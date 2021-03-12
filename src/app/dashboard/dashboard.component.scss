@@ -1,0 +1,72 @@
+// Navbar
+
+.navbar__main {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid rgb(172, 172, 172);
+  height: 92px;
+}
+
+.navbar__logo {
+  display: flex;
+  margin-left: 138px;
+}
+
+.navbar__menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__item {
+  display: flex;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 22px;
+}
+
+a {
+  display: flex;
+}
+
+.navbar__select {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+select {
+  background: url('./../../assets/icons/american-flag.svg') no-repeat left center;
+  height: 50px;
+  width: 151px;
+  border-radius: 4px;
+  padding-left: 48px;
+  border: 1px solid #AAAAAA;
+  background-position: 9px;
+  font-size: 11px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.navbar__signIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 134px;
+  border-radius: 4px;
+  margin-right: 140px;
+  margin-left: 30px;
+  background-color: #F6DA9F;
+  border: 1px solid #976900;
+}
+
+.navbar__signIn:focus {
+  outline: none;
+}
+
+

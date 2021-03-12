@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159" height="47" viewBox="0 0 159 47">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 81 63">
+      <image width="81" height="63" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAA/CAYAAACYcSQcAAAECUlEQVR4nO2bv49UVRTHPzuJS7ZyG+hctVBasYZeWy2lUwupNEAI/AEQAkYrTFCTW2CphY0kt7tSg8Vt0AIYu6UZaSbZm+y1eLvMc50fd8499+2J8dtsMvPOZ1++eyYzcz/ZjZ8f7XMMOQv8Kpx94EI6p8HxMatwRsLB2lytmL1hjXMcJb4DvC+c/Q34xRrnOEq8BmwIZ6+7kLIGx8eswnlx90QeusS3gQ+Fs78DP1rkDF3ilYrfedOFdPguWMXxMatwgH0qAJK8BpwXzv4J3DPKGbTES8CmcPa2C2lPg+NjVuEAh5zBSjwJfCqcfQ58a5QDDFfi58CWcPZrF9JUg+NjVuEA0/4DQ5T4KnBBOPsXcMco52WGKPECsC2cveNCmmhwfMwqHGBy9MHWJW7RvXQkmdK9dCxy/pHWJX4MnBLOfu9C2tXg+JhVOMDuvCdalvgKcFk4m4BbRjn/SssSzwM7wtl7LqSxBsfHrMIBxouebFXiiO4rlST7dF+pLHLmplWJHwCnhbM/uZAea3B8zCoc4PGyC1qUuIH8kDMzOyy1xlmYFiW+B7wrnL3vQnqowfExq3CAh6sualGiiSP7BpyF0S7xLHBu5VXz88CFdCiLqjg+ZhUOhfJKu0Rr29N8C0G3xDPIhc8jZuLIGmdlNEu8ilz43OgJqCpOT0BVcejemYuiVaIpcaTIKYpWif9JAVUajRJ3kAufMTPhY41THI0SLyIXPl/2BFQVpyegqjj0BFRpaku0Jo5UBVRpakvUEj4mBVRpakrcRi58JsyEjzXO2qkp8TPkwucbZsKnitMTUFr3s3akJaoIHxeSaQFVGmmJWsLHGkcUSYmbyIXPHgfCx4WkwtG6n5pISvwIufD5gZnwscYRZ90SVYSPC0mF42NuKqBKs26JWsLHGqcq65SoInxcSCocH3NzAVWadUrUEj7WONVZp0RrR/aDHP2XpLREFeHjQlLh+JgHEVClKS3R2vaY2UIoK1FF+LiQVDg+5sEEVGlKStQSPtY4allVoorwcSGpcHzMgwqo0qwqUUv4WOOoZmPJ/zvvAH8g8xVj4C1gz4WkwvExq3AEs0vz4u6JpX9VLeFjjaOeRZt4EniGzFc8B14Hpi4kFY6PWYUjmF2ZZZv4BXLh8xWzG7bGaZJ5m7gNPEHmKybAm8DEhaTC8TGrcASzRVm0iSYEVANOsxzdxC3gKTJfMQXeAHYPBFQ1x8eswhHMFmfeJn6CXPh8x+yGrXGapr+Jm3SfwyS+Yo/uc9j4QEBVc3zMKhzB7Fo5uonWxNGxC6jSjHo//xdQwhyWaE0cmRBQpRnRHStdE85n4Dq8FFDVnAMBVc0ZMiM64XNGOH+f7qATg5zBMsLekb2po/+S/A2HfBl6asCioAAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="logo" transform="translate(-138 -22)">
+    <rect id="Group_1" data-name="Group 1" width="61" height="47" transform="translate(138 22)" fill="url(#pattern)"/>
+    <text id="Price.io" transform="translate(213 54)" fill="#0d65f8" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Price.io</tspan></text>
+  </g>
+</svg>
