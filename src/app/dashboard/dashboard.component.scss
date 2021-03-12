@@ -1,11 +1,12 @@
 // Navbar
-
 .navbar__main {
   display: flex;
   position: fixed;
   width: 100%;
   border-bottom: 1px solid rgb(172, 172, 172);
-  height: 92px;
+  height: 75px;
+  background-color: #FFFFFF;
+  z-index: 1;
 }
 
 .navbar__logo {
@@ -24,7 +25,6 @@
   display: flex;
   font-size: 14px;
   cursor: pointer;
-  margin-right: 22px;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
 select {
   background: url('./../../assets/icons/american-flag.svg') no-repeat left center;
   height: 50px;
-  width: 151px;
+  width: 140px;
   border-radius: 4px;
   padding-left: 48px;
   border: 1px solid #AAAAAA;
@@ -57,9 +57,9 @@ select:focus {
   justify-content: center;
   align-items: center;
   height: 50px;
-  width: 134px;
+  width: 112px;
   border-radius: 4px;
-  margin-right: 140px;
+  margin-right: 100px;
   margin-left: 30px;
   background-color: #F6DA9F;
   border: 1px solid #976900;
@@ -69,4 +69,27 @@ select:focus {
   outline: none;
 }
 
+// Search
+.search__main {
+  display: flex;
+  height: 542px;
+  width: 100%;
+}
 
+.search {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.search__image {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: absolute;
+  height: 542px;
+  z-index: 0;
+  margin-left: 258px;
+  margin-bottom: 2px;
+  overflow: hidden;;
+}
