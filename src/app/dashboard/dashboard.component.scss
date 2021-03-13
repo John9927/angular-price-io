@@ -11,7 +11,7 @@
 
 .navbar__logo {
   display: flex;
-  margin-left: 138px;
+  margin-left: 112px;
 }
 
 .navbar__menu {
@@ -39,9 +39,9 @@ a {
 
 select {
   background: url('./../../assets/icons/american-flag.svg') no-repeat left center;
-  height: 50px;
+  height: 47px;
   width: 140px;
-  border-radius: 4px;
+  border-radius: 6px;
   padding-left: 48px;
   border: 1px solid #AAAAAA;
   background-position: 9px;
@@ -56,11 +56,11 @@ select:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 47px;
   width: 112px;
-  border-radius: 4px;
+  border-radius: 6px;
   margin-right: 100px;
-  margin-left: 30px;
+  margin-left: 20px;
   background-color: #F6DA9F;
   border: 1px solid #976900;
 }
@@ -80,6 +80,9 @@ select:focus {
   display: flex;
   flex-direction: column;
   width: 55%;
+  margin-top: 190px;
+  margin-left: 112px;
+  z-index: 1;
 }
 
 .search__image {
@@ -93,3 +96,14 @@ select:focus {
   margin-bottom: 2px;
   overflow: hidden;;
 }
+
+input {
+  padding: 10px;
+  background: #F1F6F9;
+  border: 1px solid #C7C7C7;
+}
+
+input:focus {
+  outline: none;
+}
+
