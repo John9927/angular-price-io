@@ -120,6 +120,14 @@ input:focus {
   padding: 10px;
 }
 
+.filter__items {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 53%;
+  margin-left: 83px;
+}
+
 .filter__item {
   display: flex;
   margin-right: 20px;
@@ -127,7 +135,7 @@ input:focus {
 }
 
 .filter__item:hover {
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid #E47911;
   line-height: 2;
   margin-top: -5px;
   font-weight: bold;
