@@ -6,7 +6,7 @@
   border-bottom: 1px solid rgb(172, 172, 172);
   height: 75px;
   background-color: #FFFFFF;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar__logo {
@@ -37,22 +37,22 @@ a {
   align-items: center;
 }
 
-select {
-  background: url('./../../assets/icons/american-flag.svg') no-repeat left center;
+.navbar__select__amazon {
   height: 47px;
   width: 140px;
   border-radius: 6px;
   padding-left: 48px;
   border: 1px solid #AAAAAA;
-  background-position: 9px;
   font-size: 11px;
+  background: url('./../../assets/icons/american-flag.svg') no-repeat left center;
+  background-position: 9px;
 }
 
 select:focus {
   outline: none;
 }
 
-.navbar__signIn {
+.navbar__signUp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@ select:focus {
   border: 1px solid #976900;
 }
 
-.navbar__signIn:focus {
+.navbar__signUp:focus {
   outline: none;
 }
 
@@ -101,9 +101,35 @@ input {
   padding: 10px;
   background: #F1F6F9;
   border: 1px solid #C7C7C7;
+  font-size: 14.5px;
+  width: 512px;
+  border-radius: 6px;
 }
 
 input:focus {
   outline: none;
+}
+
+.filter__select__amazon {
+  height: 47px;
+  width: 182px;
+  border-radius: 6px;
+  border: 1px solid #AAAAAA;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.filter__item {
+  display: flex;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.filter__item:hover {
+  border-bottom: 5px solid red;
+  line-height: 2;
+  margin-top: -5px;
+  font-weight: bold;
 }
 
