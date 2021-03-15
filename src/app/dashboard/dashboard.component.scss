@@ -5,7 +5,7 @@
   width: 100%;
   border-bottom: 1px solid rgb(172, 172, 172);
   height: 75px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 2;
 }
 
@@ -42,9 +42,10 @@ a {
   width: 140px;
   border-radius: 6px;
   padding-left: 48px;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #aaaaaa;
   font-size: 11px;
-  background: url('./../../assets/icons/american-flag.svg') no-repeat left center;
+  background: url("./../../assets/icons/american-flag.svg") no-repeat left
+    center;
   background-position: 9px;
 }
 
@@ -61,8 +62,9 @@ select:focus {
   border-radius: 6px;
   margin-right: 100px;
   margin-left: 20px;
-  background-color: #F6DA9F;
+  background-color: #f6da9f;
   border: 1px solid #976900;
+  cursor: pointer;
 }
 
 .navbar__signUp:focus {
@@ -94,13 +96,13 @@ select:focus {
   z-index: 0;
   margin-left: 258px;
   margin-bottom: 2px;
-  overflow: hidden;;
+  overflow: hidden;
 }
 
 input {
   padding: 10px;
-  background: #F1F6F9;
-  border: 1px solid #C7C7C7;
+  background: #f1f6f9;
+  border: 1px solid #c7c7c7;
   font-size: 14.5px;
   width: 512px;
   border-radius: 6px;
@@ -110,14 +112,26 @@ input:focus {
   outline: none;
 }
 
+// Filter
+
+.filter__main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 112px;
+  margin-top: 55px;
+  margin-bottom: 57px;
+}
+
 .filter__select__amazon {
   height: 47px;
   width: 182px;
   border-radius: 6px;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #aaaaaa;
   font-size: 13px;
   font-weight: 600;
   padding: 10px;
+  cursor: pointer;
 }
 
 .filter__items {
@@ -132,12 +146,142 @@ input:focus {
   display: flex;
   margin-right: 20px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .filter__item:hover {
-  border-bottom: 5px solid #E47911;
+  border-bottom: 5px solid #e47911;
   line-height: 2;
   margin-top: -5px;
   font-weight: bold;
 }
 
+.filter__icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 15%;
+  border-radius: 6px;
+  position: relative;
+  cursor: pointer;
+}
+
+.filter__div__image {
+  border: 1px solid #c7c7c7;
+  border-radius: 6px;
+  padding: 11px 15px 10px 15px;
+}
+
+// Cards
+
+.cards__main {
+  display: flex;
+  width: 85%;
+  min-height: 291px;
+  margin: 0 auto;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.card__span {
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+
+.card__popup {
+  position: relative;
+  color: white;
+  display: flex;
+  width: 70px;
+  background: #2abfb5;
+  margin-right: 9px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: -113px;
+  height: 22px;
+}
+
+.card__container__popup {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.card__img {
+  height: 120px;
+  border-top: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+  border-radius: 6px 6px 0 0;
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+  margin: 0 auto;
+}
+
+.card__container__price {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__span__label__price {
+  font-size: 10px;
+}
+
+.card__span__price {
+  font-size: 14px;
+  color: #2abfb5;
+}
+
+.card__span__price__highest {
+  font-size: 14px;
+  color: #c5c5c5;
+}
+
+.card__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  border-radius: 4px;
+  background: #f6da9f;
+  border: 1px solid #976900;
+  font-size: 14px;
+}
+
+.card__button:focus {
+  outline: none;
+}
+
+.card__button__container {
+  display: flex;
+  justify-content: center;
+  width: 82%;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.card__container__product {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #c7c7c7;
+  border-left: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  border-radius: 0 0 6px 6px;
+}
