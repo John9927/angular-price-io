@@ -347,3 +347,29 @@ input:focus {
   overflow: hidden;
   border-radius: 4px;
 }
+
+// Footer
+
+.footer__main {
+  display: flex;
+  margin-top: 55px;
+  margin-left: 105px;
+}
+
+.footer__item {
+  margin-left: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer__label {
+  margin-top: 8px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
