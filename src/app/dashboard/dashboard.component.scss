@@ -117,8 +117,9 @@ input:focus {
 .filter__main {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
-  margin-left: 112px;
+  margin-left: 7px;
   margin-top: 55px;
   margin-bottom: 57px;
 }
@@ -160,25 +161,25 @@ input:focus {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 15%;
+  width: 15.5%;
   border-radius: 6px;
   position: relative;
-  cursor: pointer;
 }
 
 .filter__div__image {
   border: 1px solid #c7c7c7;
   border-radius: 6px;
   padding: 11px 15px 10px 15px;
+  cursor: pointer;
 }
 
 // Cards
 
 .cards__main {
   display: flex;
-  width: 85%;
+  width: 86%;
   min-height: 291px;
-  margin: 0 auto;
+  margin-left: 120px;
 }
 
 .card__container {
@@ -262,6 +263,7 @@ input:focus {
   background: #f6da9f;
   border: 1px solid #976900;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .card__button:focus {
@@ -284,4 +286,64 @@ input:focus {
   border-left: 1px solid #c7c7c7;
   border-right: 1px solid #c7c7c7;
   border-radius: 0 0 6px 6px;
+}
+
+// Banner
+
+.banner__container {
+  display: flex;
+  width: 85.2%;
+  margin: 0 auto;
+  background-color: #0D65F8;
+  min-height: 270px;
+  border-radius: 4px;
+  margin-left: 118px;
+}
+
+.banner__message {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.banner__span {
+  font-size: 37px;
+  color: white;
+  font-weight: bold;
+  margin-left: 34px;
+  margin-top: 39px;
+  margin-bottom: 20px;
+}
+
+.banner__input {
+  width: 285px;
+  margin-left: 35px;
+  margin-right: 10px;
+  padding-left: 71px;
+  height: 42px;
+  border-radius: 4px;
+  padding-right: 63px;
+}
+
+.banner__button__sign {
+  width: 184px;
+  height: 42px;
+  border-radius: 4px;
+  border: 1px solid #976900;
+  background: #F6DA9F;
+  cursor: pointer;
+}
+
+.banner__span__notifications {
+  margin-left: 35px;
+  color: white;
+  margin-top: 20px;
+  color: #79ABFE;
+}
+
+.banner__image {
+  width: 733px;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 4px;
 }
